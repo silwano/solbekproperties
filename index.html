@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solbek Properties</title>
+    <link rel="shortcut icon" href="images/solbek-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Fixed Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <img src="images/solbek-logo.png" alt="solbek-logo">
+            </a>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">HOME</a></li>
+                <li><a href="about.html" class="nav-link">ABOUT US</a></li>
+                <li><a href="our_projects.html" class="nav-link">OUR PROJECT</a></li>
+                <li><a href="gallery.html" class="nav-link">GALLERY</a></li>
+                <li><a href="contact.html" class="nav-link cta-button">CONTACT US</a></li>
+            </ul>
+            
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+    <!-- slideshow -->
+    <div class="slideshow-container">
+        <!-- Slides -->
+        <div class="slide fade">
+            <img src="images/Solbeck Propeties-2.jpg" alt="Home image">
+            <div class="slide-text">
+                <h2>Modern Luxury Houses</h2>
+                <p>3 bedrooms | 3 bathrooms </p>
+                <a href="our_projects.html" class="slide-btn">View Property</a>
+            </div>
+        </div>
+        
+        <div class="slide fade">
+            <img src="images/Solbeck Propeties-8.jpg" alt="Contemporary Home">
+            <div class="slide-text">
+                <h2>Contemporary Family Home</h2>
+                <p>4 bedrooms | 4 bathrooms </p>
+                <a href="our_projects.html" class="slide-btn">View Property</a>
+            </div>
+        </div>
+        
+        <div class="slide fade">
+            <img src="images/Solbeck Propeties-45.jpg" alt="Waterfront Property">
+            <div class="slide-text">
+                <h2>Ashongman Estate Project</h2>
+                <p>3 bedrooms | 3 bathrooms</p>
+                <a href="our_projects.html" class="slide-btn">View Property</a>
+            </div>
+        </div>
+        
+        <!-- Navigation arrows -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        <!-- Dots/bullets -->
+        <div class="dots-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+    <!-- welcome page -->
+        <div class="welcome-message">
+          <h2 class="welcome-line">Welcome to Solbek Properties</h2>
+          <p class="welcome-line line2">At Solbek Properties, we transform the journey of finding your dream home into an extraordinary experience. 
+            Our passionate team combines local expertise with personalized service to help you find more than just a house - 
+            we help you discover where your life's best moments will unfold.</p>
+      </div>
+      <!-- about section -->
+      <div class="image-text-section">
+        <div class="image-container">
+          <img src="images/Solbeck Propeties.jpg" 
+               alt="Modern Home" class="scroll-animate">
+        </div>
+        <div class="text-container">
+          <h2 class="scroll-animate">Modern Living Spaces</h2>
+          <p class="scroll-animate">Discover our curated collection of contemporary homes designed for comfort and style. Each property is carefully selected to meet the highest standards of modern living.</p>
+        </div>
+      </div>
+      <!-- slideshow -->
+      <div class="home-gallery">
+        <div class="gallery-frame">
+          <!-- Panel 1 -->
+          <div class="gallery-panel current-panel">
+            <video class="responsive-video" autoplay muted loop>
+              <source src="images/solbek_site.webm" type="video/webm">
+            </video>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <footer class="site-footer">
+        <div class="footer-container">
+          <div class="footer-brand">
+            <img src="images/solbek-logo.png" alt="solbek-logo">
+          </div>
+          
+          <div class="footer-links">
+            <div class="link-group">
+              <h4 class="link-title">Properties</h4>
+              <ul>
+                <li><a href="our_projects.html">Our Projects</a></li>
+              </ul>
+            </div>
+            
+            <div class="link-group">
+              <h4 class="link-title">Company</h4>
+              <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+              </ul>
+            </div>
+            
+            <div class="link-group">
+              <h4 class="link-title">Support</h4>
+              <ul>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="footer-contact">
+            <h4 class="contact-title">Get in Touch</h4>
+            <address>
+              Tantra Hills<br>
+              Near Champion Divine Clinic<br>
+              <a href="tel:+18005551234">(+233) 544076079, (+233) 208118221 </a><br>
+              <a href="mailto:solbekproperties@gmail.com">solbekproperties@gmail.com</a>
+            </address>
+            
+            <div class="social-links">
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="footer-bottom">
+          <p>&copy; <span id="currentYear"></span> Solbek Properties. All rights reserved.</p>
+        </div>
+      </footer>
+  
+
+    <script src="index.js"></script>
+</body>
+</html>

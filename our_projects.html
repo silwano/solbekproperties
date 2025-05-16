@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solbek Properties</title>
+    <link rel="shortcut icon" href="images/solbek-logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Fixed Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <img src="images/solbek-logo.png" alt="solbek-logo">
+            </a>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">HOME</a></li>
+                <li><a href="about.html" class="nav-link">ABOUT US</a></li>
+                <li><a href="our_projects.html" class="nav-link active">OUR PROJECT</a></li>
+                <li><a href="gallery.html" class="nav-link">GALLERY</a></li>
+                <li><a href="contact.html" class="nav-link cta-button">CONTACT US</a></li>
+            </ul>
+            
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+    <!-- slideshow -->
+    <div class="slideshow-container">
+        <!-- Slides -->
+        <div class="slide fade image_opacity">
+            <img src="images/Rectangle-3-2.png" alt="Home image">
+            <div class="banner_text">
+                <h2>Projects</h2>
+            </div>
+        </div>
+    </div>
+    <section class="portfolio-banner">
+        <div class="portfolio-wrapper">
+          <h1 class="portfolio-heading fade-element">Our Exclusive Listings</h1>
+          <p class="portfolio-subhead fade-element">Curated selection of premium properties</p>
+        </div>
+      </section>
+      
+      <section class="portfolio-controls">
+        <div class="portfolio-container">
+          <div class="selection-tabs fade-element">
+            <button class="tab-btn active-tab" data-category="all">All Listings</button>
+            <button class="tab-btn" data-category="available">Available Now</button>
+            <button class="tab-btn" data-category="closed">Recently Closed</button>
+            <button class="tab-btn" data-category="in-progress">In Progress</button>
+          </div>
+        </div>
+      </section>
+      
+      <section class="portfolio-showcase">
+        <div class="portfolio-container grid-layout">
+          <!-- Listing 1 (Available) -->
+          <div class="listing-card fade-element" data-category="in-progress">
+            <div class="listing-tag available-tag">In Progress</div>
+            <div class="listing-photo">
+                <img src="images/Solbeck Propeties-47 copy.jpg" alt="">
+            </div>
+            <div class="listing-info">
+              <h3>Semi-detached House</h3>
+              <p class="listing-address"><i class="fas fa-map-marker-alt"></i> Ashongman Estate</p>
+              <div class="listing-specs">
+                <span><i class="fas fa-bed"></i> 3</span>
+                <span><i class="fas fa-bath"></i> 3</span>
+              </div>
+              <p class="listing-value">GHS 2,000,000</p>
+              <a href="#" class="listing-cta">For Sale</a>
+            </div>
+          </div>
+      
+          <!-- Listing 2 (Closed) -->
+          <div class="listing-card fade-element" data-category="closed">
+            <div class="listing-tag closed-tag">Closed</div>
+            <div class="listing-photo">
+                <img src="images/Solbeck Propeties-listing-2.jpg" alt="">
+            </div>
+            <div class="listing-info">
+              <h3>Semi-detached House</h3>
+              <p class="listing-address"><i class="fas fa-map-marker-alt"></i> Tantra Hills</p>
+              <div class="listing-specs">
+                <span><i class="fas fa-bed"></i> 4</span>
+                <span><i class="fas fa-bath"></i> 4</span>
+              </div>
+              <p class="listing-value">GHS 1,700,000</p>
+              <a href="#" class="listing-cta">Sold Out</a>
+            </div>
+          </div>
+
+          <div class="listing-card fade-element" data-category="closed">
+            <div class="listing-tag closed-tag">Closed</div>
+            <div class="listing-photo">
+                <img src="images/Solbeck Propeties-listing-4.jpg" alt="house_image3">
+            </div>
+            <div class="listing-info">
+              <h3>Semi-detached House</h3>
+              <p class="listing-address"><i class="fas fa-map-marker-alt"></i> Tantra Hills</p>
+              <div class="listing-specs">
+                <span><i class="fas fa-bed"></i> 3</span>
+                <span><i class="fas fa-bath"></i> 3</span>
+              </div>
+              <p class="listing-value">GHS 1,700,000</p>
+              <a href="#" class="listing-cta">Sold Out</a>
+            </div>
+          </div>
+
+          <div class="listing-card fade-element" data-category="closed">
+            <div class="listing-tag closed-tag">Closed</div>
+            <div class="listing-photo">
+                <img src="images/Solbeck Propeties-listing-5.jpg" alt="house_image3">
+            </div>
+            <div class="listing-info">
+              <h3>Semi-detached House</h3>
+              <p class="listing-address"><i class="fas fa-map-marker-alt"></i> Abokobi</p>
+              <div class="listing-specs">
+                <span><i class="fas fa-bed"></i> 3</span>
+                <span><i class="fas fa-bath"></i> 3</span>
+              </div>
+              <p class="listing-value">GHS 1,500,000</p>
+              <a href="#" class="listing-cta">Sold Out</a>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+       <!-- footer -->
+       <footer class="site-footer">
+        <div class="footer-container">
+          <div class="footer-brand">
+            <img src="images/solbek-logo.png" alt="solbek-logo">
+          </div>
+          
+          <div class="footer-links">
+            <div class="link-group">
+              <h4 class="link-title">Properties</h4>
+              <ul>
+                <li><a href="our_projects.html">Our Projects</a></li>
+              </ul>
+            </div>
+            
+            <div class="link-group">
+              <h4 class="link-title">Company</h4>
+              <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+              </ul>
+            </div>
+            
+            <div class="link-group">
+              <h4 class="link-title">Support</h4>
+              <ul>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="footer-contact">
+            <h4 class="contact-title">Get in Touch</h4>
+            <address>
+              Tantra Hills<br>
+              Near Champion Divine Clinic<br>
+              <a href="tel:+18005551234">(+233) 544076079, (+233) 208118221 </a><br>
+              <a href="mailto:solbekproperties@gmail.com">solbekproperties@gmail.com</a>
+            </address>
+            
+            <div class="social-links">
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="footer-bottom">
+          <p>&copy; <span id="currentYear"></span> Solbek Properties. All rights reserved.</p>
+        </div>
+      </footer>
+
+  <script src="index.js"></script>
+  <script src="our_project.js"></script>
+</body>
+</html>
